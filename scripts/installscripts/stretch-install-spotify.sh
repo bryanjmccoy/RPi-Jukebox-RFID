@@ -284,9 +284,9 @@ clear
 
 echo "#####################################################
 #
-# OPTIONAL: INCLUDE SPOTIFY SUPPORT
+# OPTIONAL: INCLUDE GOOGLE PLAY MUSIC SUPPORT
 #
-# Spotify uses Mopidy for audio output and must
+# Google play music uses Mopidy for audio output and must
 # be configured. Do it now, or never.
 # (Note: To add this later, you must re-install phoniebox)
 "
@@ -294,7 +294,7 @@ read -r -p "Do you want to install Mopidy? [Y/n] " response
 case "$response" in
     [nN][oO]|[nN])
     	SPOTinstall=NO
-    	echo "You don't want spotify support."
+    	echo "You don't want Google play support."
     	echo "Hit ENTER to proceed to the next step."
         read INPUT
         ;;
